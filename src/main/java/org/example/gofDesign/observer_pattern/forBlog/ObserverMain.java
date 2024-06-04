@@ -8,10 +8,8 @@ public class ObserverMain {
 
         Subscriber paul = new Paul(codingPear);
 
+//        codingPear.uploadVideo("how can i use observer pattern");
+        alex.update2();
 
-        //
-        codingPear.notifySubscriber();
-
-        System.out.println(codingPear.getLikeability());
     }
 }
